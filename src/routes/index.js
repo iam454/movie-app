@@ -1,6 +1,7 @@
 import { createRouter } from "../core/heropy.js";
 import Home from "./Home.js";
 import Movie from "./Movie.js";
+import About from "./About.js";
 
 export default createRouter([
   {
@@ -10,5 +11,9 @@ export default createRouter([
   {
     path: "#/movie",
     component: Movie,
+  },
+  {
+    path: "#/about",
+    component: About,
   },
 ]);
