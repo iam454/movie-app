@@ -2,7 +2,6 @@
   "name": "movie-app",
   "version": "1.0.0",
   "description": "영화 검색 사이트 만들기(Vanilla JS) 컴포넌트 구조 연습",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel ./index.html",
     "build": "parcel build ./index.html"
